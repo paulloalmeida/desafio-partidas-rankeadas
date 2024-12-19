@@ -9,11 +9,11 @@ console.log(vitorias - derrotas)
 switch (true) {
     case saldoVitorias < 10:
         nivel = "Ferro";
-        console.log("O herói tem saldo de " + saldoVitorias() + " e está no nível " + nivel + "!");
+        console.log("O herói tem saldo de " + "saldoVitorias()" + " e está no nível " + nivel + "!");
         break;
     case saldoVitorias <= 20:
         nivel = "Bronze";
-        console.log("O herói tem saldo de " + saldoVitorias() + " e está no nível " + nivel + "!");
+        console.log("O herói tem saldo de " + "saldoVitorias()" + " e está no nível " + nivel + "!");
         break;
     case saldoVitorias <= 50:
         nivel = "Prata";
