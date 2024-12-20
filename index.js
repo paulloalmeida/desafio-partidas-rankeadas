@@ -1,5 +1,5 @@
 
-vitorias = 1065
+vitorias = 10
 derrotas = 2
 let nivel
 
@@ -7,7 +7,7 @@ function saldoVitorias () {
 console.log(vitorias - derrotas)
 }
 switch (true) {
-    case saldoVitorias < 10:
+    case saldoVitorias() < 10:
         nivel = "Ferro";
         console.log("O herói tem saldo de " + "saldoVitorias()" + " e está no nível " + nivel + "!");
         break;
