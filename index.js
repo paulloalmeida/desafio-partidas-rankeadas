@@ -15,19 +15,19 @@ switch (true) {
         nivel = "Bronze";
         console.log("O herói tem saldo de " + calcularSaldo() + " e está no nível " + nivel + "!");
         break;
-    case saldoVitorias <= 50:
+    case calcularSaldo() <= 50:
         nivel = "Prata";
         console.log("O herói tem saldo de " + calcularSaldo() + " e está no nível " + nivel + "!");
         break;
-    case saldoVitorias <= 80:
+    case calcularSaldo() <= 80:
         nivel = "Ouro";
         console.log("O herói tem saldo de " + calcularSaldo() + " e está no nível " + nivel + "!");
         break;
-    case saldoVitorias <= 90:
+    case calcularSaldo() <= 90:
         nivel = "Diamante";
         console.log("O herói tem saldo de " + calcularSaldo() + " e está no nível " + nivel + "!");
         break;
-    case saldoVitorias <= 100:
+    case calcularSaldo() <= 100:
         nivel = "Lendário";
         console.log("O herói tem saldo de " + calcularSaldo() + " e está no nível " + nivel + "!");
         break;
