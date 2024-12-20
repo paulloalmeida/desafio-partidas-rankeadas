@@ -3,13 +3,13 @@ vitorias = 10
 derrotas = 2
 let nivel
 
-function saldoVitorias () {
+function calcularSaldo () {
 console.log(vitorias - derrotas)
 }
 switch (true) {
-    case saldoVitorias() < 10:
+    case calcularSaldo() < 10:
         nivel = "Ferro";
-        console.log("O herói tem saldo de " + "saldoVitorias()" + " e está no nível " + nivel + "!");
+        console.log("O herói tem saldo de " + calcularSaldo() + " e está no nível " + nivel + "!");
         break;
     case saldoVitorias <= 20:
         nivel = "Bronze";
