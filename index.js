@@ -6,6 +6,8 @@ let nivel
 function calcularSaldo () {
 console.log(vitorias - derrotas)
 }
+
+function concatenar () {
 switch (true) {
     case calcularSaldo() < 10:
         nivel = "Ferro";
@@ -35,5 +37,5 @@ switch (true) {
         nivel = "Imortal";
         console.log("O herói tem saldo de " + calcularSaldo() + " e está no nível " + nivel + "!");
         break;
-    
+ }
 }
