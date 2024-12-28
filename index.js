@@ -1,7 +1,7 @@
-function calcularNivel (vitorias, derrotas) {
-   const saldo = vitorias - derrotas;
-   let nivel;
-   
+function calcularNivel(vitorias, derrotas) {
+    let saldo = vitorias - derrotas;
+    let nivel;
+       
    switch (true) {
     case (saldo < 10) :
         nivel = "Ferro";
