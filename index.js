@@ -1,35 +1,33 @@
-
-vitorias = 10
-derrotas = 2
-let nivel
-console.log("O herói tem saldo de " + saldo + " e está no nível " + nivel + "!");
-        
-function calcularSaldo (vitorias, derrotas) {
-
-   let saldo = vitorias - derrotas;
+function calcularNivel (vitorias, derrotas) {
+   const saldo = vitorias - derrotas; 
+   let nivel
    
    switch (true) {
-    case vitorias < 10:
+    case (saldo < 10) :
         nivel = "Ferro";
         break;
-    case vitorias <= 20:
+    case (saldo <= 20) :
         nivel = "Bronze";
         break;
-    case vitorias <= 50:
+    case (saldo <= 50) :
         nivel = "Prata";
         break;
-    case vitorias <= 80:
+    case (saldo <= 80) :
         nivel = "Ouro";
         break;
-    case vitorias <= 90:
+    case (saldo <= 90) :
         nivel = "Diamante";
         break;
-    case vitorias <= 100:
+    case (saldo <= 100) :
         nivel = "Lendário";
         break;
     default:
         nivel = "Imortal";
-        break;
-   }
+    }
+
+    return  {
+       saldo: saldo,
+       nivel: nivel
+    };
 }
-return saldo()
+console.log("O herói tem saldo de " + saldo + " e está no nível " + nivel + "!");
