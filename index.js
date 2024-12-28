@@ -1,5 +1,5 @@
 function calcularNivel (vitorias, derrotas) {
-   const saldo = vitorias - derrotas; 
+   const saldo = vitorias - derrotas;
    let nivel;
    
    switch (true) {
@@ -31,3 +31,6 @@ function calcularNivel (vitorias, derrotas) {
     };
 }
 console.log("O herói tem saldo de " + saldo + " e está no nível " + nivel + "!");
+
+// Exemplo:
+const resultado = calcularNivel(100, 10);
