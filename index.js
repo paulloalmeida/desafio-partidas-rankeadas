@@ -1,6 +1,6 @@
 function calcularNivel (vitorias, derrotas) {
    const saldo = vitorias - derrotas; 
-   let nivel
+   let nivel;
    
    switch (true) {
     case (saldo < 10) :
