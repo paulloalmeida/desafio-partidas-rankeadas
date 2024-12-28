@@ -33,3 +33,4 @@ function calcularNivel(vitorias, derrotas) {
 
 // Exemplo:
 const resultado = calcularNivel(100, 10);
+console.log("O Herói tem saldo de ${resultado.saldo} está no nível de ${resultado.nivel}");
