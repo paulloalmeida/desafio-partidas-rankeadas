@@ -1,7 +1,7 @@
 function calcularNivel(vitorias, derrotas) {
     let saldo = vitorias - derrotas;
     let nivel;
-       
+
    switch (true) {
     case (saldo < 10) :
         nivel = "Ferro";
@@ -30,7 +30,7 @@ function calcularNivel(vitorias, derrotas) {
        nivel: nivel
     };
 }
-console.log("O herói tem saldo de " + saldo + " e está no nível " + nivel + "!");
 
 // Exemplo:
 const resultado = calcularNivel(100, 10);
+console.log("O herói tem saldo de " + saldo + " e está no nível " + nivel + "!");
